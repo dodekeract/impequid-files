@@ -1,40 +1,40 @@
 {
-  "name": "impequid-files-app",
-  "version": "0.0.1",
-  "description": "File manager for impequid.",
-  "main": "build/main.js",
-  "scripts": {
-    "test": "mocha",
-    "server": "http-server web/build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dodekeract/impequid-files-app.git"
-  },
-  "keywords": [
-    "impequid",
-    "files",
-    "app"
-  ],
-  "author": "Florian Wendelborn",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dodekeract/impequid-files-app/issues"
-  },
-  "homepage": "https://github.com/dodekeract/impequid-files-app#readme",
-  "dependencies": {
-    "flux": "^2.1.1",
-    "flux-constants": "^0.2.2",
-    "gulp": "^3.9.0",
-    "gulp-browserify": "^0.5.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-replace": "^0.5.4",
-    "react": "^0.14.6",
-    "react-router": "^2.0.0-rc5",
-    "reactify": "^1.1.1",
-    "socket.io-stream": "^0.9.0"
-  },
-  "devDependencies": {
-    "http-server": "^0.8.5"
-  }
+	"name": "impequid-files-app",
+	"version": "0.0.1",
+	"description": "File manager for impequid.",
+	"main": "build/main.js",
+	"scripts": {
+		"test": "mocha",
+		"server": "http-server web/build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dodekeract/impequid-files-app.git"
+	},
+	"keywords": [
+		"impequid",
+		"files",
+		"app"
+	],
+	"author": "Florian Wendelborn",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/dodekeract/impequid-files-app/issues"
+	},
+	"homepage": "https://github.com/dodekeract/impequid-files-app#readme",
+	"dependencies": {
+		"flux": "^2.1.1",
+		"flux-constants": "^0.2.2",
+		"gulp": "^3.9.0",
+		"gulp-browserify": "^0.5.1",
+		"gulp-rename": "^1.2.2",
+		"gulp-replace": "^0.5.4",
+		"react": "^0.14.6",
+		"react-router": "^2.0.0-rc5",
+		"reactify": "^1.1.1",
+		"socket.io-stream": "^0.9.0"
+	},
+	"devDependencies": {
+		"http-server": "^0.8.5"
+	}
 }
